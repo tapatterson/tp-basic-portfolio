@@ -162,11 +162,11 @@ nav a: first-child{
   	position: relative;
   	float: left;
   	width: 274px;
-  	margin 20px 0 25px;
+  	margin: 20px 0 25px;
   	overflow: auto;
   }
 
-  .work:nth-child(even){
+  .work: nth-child(even){
   	margin-right: 40px;
   }
 
@@ -237,4 +237,3 @@ nav a: first-child{
    	background: #4aaaa5;
    	border:0 none;
    }
-   
