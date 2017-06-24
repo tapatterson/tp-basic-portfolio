@@ -1,55 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang='en-us'>
-<head>
-	<meta charset="utf-8">
-	<title>Taneah Patterson</title>
 
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact| Taneah Patterson</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
-	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
 </head>
 
+<body>
 
-<body id= contact>
-	<header>
-		<h1>Taneah Patterson</h1>
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Taneah Patterson</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.com">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
 	</header>
 	
-	<div class="contact">
-		<form action="/action_page.php">
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>Contact</h1>
 
-			<label for="name">Name</label>
-			<input type="text" id="name" name="name"
-		placeholder="John Smith">
+			<form id="contact-form">
+				<ul>
+					<li>
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+					</li>
+					<li>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required="required"></textarea>
+					</li>
+				</ul>
+				<input type="submit">
+			</form>
 
-			<label for="Email">Email</label>
-			<input type="text" id="Email" name="Email"
-		placeholder="example@gmail.com">
+		</section>
 
-			<label for="Message"> Message</label>
-			<textarea id="Message" name="message"
-		placeholder="Insert message here.." style="height: 200px"></textarea>
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect With Me</h2>
 
-			<input type="submit" value="submit">
-
-		</form>
+				<a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+				<a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+				<a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+			</div>
+		</section>
 	</div>
 
-	<aside>
-			<h3><strong>Connect with Me</strong></h3>
-	
-
-				<img src="https://cdn3.iconfinder.com/data/icons/inficons/128/github.png" alt="GitHub">
-
-				<img src="https://cdn3.iconfinder.com/data/icons/inficons/128/linkedin.png" alt=LinkedIn>
-	
-				<img src="https://cdn4.iconfinder.com/data/icons/miu-square-flat-social/60/stackoverflow-square-social-media-128.png" alt=Stack Overflow>
-		</aside>
-
-
 	<footer>
-		<p>Copyright 2017 Taneah Patterson</p>
+		<div class="container">
+			Copyright &copy; 2017 Taneah Patterson
+		</div>
 	</footer>
+</body>
+
+</html>
 
 
 </html>
